@@ -29,9 +29,11 @@ function agregarLista(){
         console.log(e)
         let nombreTarea = form.querySelector("input[id='tarea']").value 
         console.log(nombreTarea)
-        const nuevaLi = document.createElement("li");
+        if (nombreTarea.split("")[0] !== " "){
+            const nuevaLi = document.createElement("li");
         nuevaLi.textContent = nombreTarea;   
         nuevalista.appendChild(nuevaLi);
+        } else {alert("Error, agregar una tarea...")}
     })
 }
 
