@@ -1,0 +1,55 @@
+/* 1. Modifique los estilos de todas las etiquetas <h3> para que tengan el color azul y la alineación del texto centrada. */
+h3 {
+    color:blue;
+    text-align:center;
+}
+/* 2. Modifique <div> con id main para que tenga el color de fondo gris, la alineación del contenido centrada y un margen y padding de 30 píxeles. */
+div#main {
+  background-color: grey;
+  text-align:center;
+  margin: 30px;
+  padding: 30px;
+}
+
+/* 3. Cree una nueva clase css llamada alerta que haga que un contenedor tenga el siguiente aspecto:
+
+  color del texto: #72353D;
+  color de fondo: #EAD2D5; */
+
+.alerta {
+  color: #72353D;
+  background-color: #EAD2D5;
+}
+
+/* 4. Cree dos nuevas etiquetas <div> que tengan una altura de 200 píxeles y ocupen el 50% de la página cada una y tengan color azul y rojo. */
+#primero {
+  height: 200px;
+  width: 50%;
+  background-color:red;
+}
+#segundo {
+  height: 200px;
+  width: 50%;
+  background-color:blue;
+}
+
+/* 5. Cambie todas las fuentes a Verdana y el tamaño de fuente a 1,5 em. */
+body {
+  font-family: Verdana;
+  font-size: 1.5em;
+}
+
+/* 6. Modifique las etiquetas <div> creadas en el paso 4 para tener:
+
+un padding de 20px
+un ancho del 40%
+bordes redondeados de 50px
+un borde negro redondeado de 1px */
+
+ .estilo {
+  padding:20px;
+  border:1px solid black;
+  border-radius: 50px;
+  width:40%;
+}
+

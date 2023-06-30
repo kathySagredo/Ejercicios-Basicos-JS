@@ -1,0 +1,43 @@
+
+div.main {
+    padding:15px;
+    font-family: Verdana;
+    font-size:12px;
+}
+
+
+/* como ir al id */
+#text {
+    font-size:larger;
+    font-weight: bold;
+    color:brown
+}
+
+
+
+/* Como ir a la clase */
+div.mi-clase h1{
+    color:brown;
+    /* display entrega al HTML como se muestra el contenido en la pagina web */
+    display:block; /* none = No muestra nada | block = muestra | inline = contenido lineal | inline-block = contenido a la linea de abajo */
+}
+
+div.mi-clase p{
+    color:blue;
+}
+
+h1{
+    background-color: rgb(10, 10, 9);
+    border: 1px solid black;
+}
+
+p#text {
+    color:red;
+}
+
+div.contenedor{
+    color:white;
+    background-color: black;
+    margin:50px;
+    padding: 60px;
+}
