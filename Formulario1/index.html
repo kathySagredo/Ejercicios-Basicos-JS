@@ -1,0 +1,45 @@
+<!-- Ejercicio libre: 
+-Realiza un formulario básico utilizando las etiquetas abordadas en la clase de hoy.
+-Considera al menos tener 5 input de diferentes tipos dentro de tu form 
+-Si puedes intenta agregar el evento preventDefault() para evitar el comportamiento por defecto del formulario . -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" id="form1">
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="nombre">Nombre</label>
+            <input type=" text" name="nombre" placeholder="Escribe tu nombre"/><br><br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Escribe tu apellido"/><br><br>   
+            <div>
+            <label for="of1">Part Time</label>
+            <input type="checkbox" name="of1"/><br>
+            </div>
+            <div>
+            <label for="of2">Full Time</label>
+            <input type="checkbox" name="of2" /><br><br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Ingreso usuario</legend>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" placeholder="Ingreso email">
+            <br><br>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" placeholder="********">
+            <br><br>
+            <input type="submit"/>
+        </fieldset>
+    </form>
+    
+
+    <script src="form.js"></script>
+</body>
+</html>
