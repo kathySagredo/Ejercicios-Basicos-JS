@@ -1,0 +1,51 @@
+<!-- Ejercicio #3
+Crea una entrada de blog sobre la ciudad de la que eres. Debe tener un título, algo de texto, una lista, enlaces e imágenes. Ten cuenta de organizar el contenido de etiquetas para órdenes el contenido y que sea a futuro más sencillo aplicar estilos.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejercicio3.css">
+ </head>
+ <body>
+    <div id="titulo">
+        <h1>Santiago de Chile</h1>
+        <img src="captura2.PNG">
+    </div>
+    <div>
+        <p id="info">Santiago, la capital y la ciudad más grande de Chile, se ubica en un valle rodeado de cimas nevadas de los Andes y la Cordillera de la Costa chilena. La Plaza de Armas, el gran núcleo del centro colonial antiguo de la ciudad, tiene 2 monumentos neoclásicos: el Palacio de la Real Audiencia de 1808, donde está el Museo Histórico Nacional, y la Catedral Metropolitana del siglo XVIII. La Chascona es la casa transformada en museo del poeta Pablo Neruda.</p>
+        <ul>
+            <li>
+                <P>Para mayor información sobre monumentos:</P>
+                <a href="https://www.monumentos.gob.cl/" id="monumentos">Monumentos nacionales de Chile</a>
+            </li>
+            <li>
+                <p>Para mayor información sobre turismo en la Region Metropolitana:</p>
+                <a href="https://santiago2023.org/es/noticias/portada-sitio-web/detalle/1056/region-metropolitana" id="turismo">Turismo 2023 region-metropolitana</a>
+            </li>
+        </ul>
+    <div>
+        <br>
+        <form action="#">
+            <h4>Si quieres mayor información, contactanos</h4>
+            <fieldset>
+                <legend>Formulario</legend>
+
+                <label for="email">Correo</label>
+                <input type="email" name="email" id="correo"><br><br>
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto"><br><br>
+            
+                <label for="msj">Mensaje</label><br>
+                <input type="text" name="msj" id="mensaje"><br><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </div>
+
+    
+ </body>
+ </html>
